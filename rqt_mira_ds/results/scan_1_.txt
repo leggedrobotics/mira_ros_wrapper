@@ -1,0 +1,5 @@
+Matched Mixture: Augite 00829; Score: 75
+Hazard level: 0
+Operating Procedure: Glimpse XTR
+LaserRange: 249
+Ĉorrelations:    

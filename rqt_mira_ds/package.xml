@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>rqt_mira_ds</name>
+  <version>0.0.0</version>
+  <description>The rqt_mira_ds package</description>
+
+  <maintainer email="preisigj@ethz.ch">Jan Preisig</maintainer>
+  <license>BSD</license>
+  <author email="preisigj@ethz.ch">Jan Preisig</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>rqt_gui</depend>
+  <depend>rqt_gui_py</depend>
+  <depend>mira_msgs</depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

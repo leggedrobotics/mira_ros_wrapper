@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+  <!-- Path to the rqt perspective file -->
+  <arg name="rqt_perspective_path_sim"                    default="$(find rqt_mira_ds)/config/default.perspective"/>
+
+
+  <node pkg="mira_ds" name="mira_ds" type="mira_ds.py" output="screen"/> 
+
+  <!-- Launch rqt -->
+  <node name="rqt_gui" pkg="rqt_gui" type="rqt_gui" args="--force-discover --perspective-file $(arg rqt_perspective_path_sim)" output="screen" respawn="false"/>
+
+
+</launch>

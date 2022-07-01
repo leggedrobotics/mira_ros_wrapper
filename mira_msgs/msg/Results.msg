@@ -1,0 +1,10 @@
+string match
+string[] correlations
+string hazard_level
+string operating_prozedure
+uint16 range
+uint16 first_wavenumber
+uint16 intensities_count
+uint32[] intensities
+uint32[] baselines
+uint32[] top_match_intensities

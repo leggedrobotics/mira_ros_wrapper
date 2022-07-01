@@ -1,0 +1,5 @@
+int16 location_x
+int16 location_y
+---
+bool success   # indicate successful run of triggered service
+int16 distanceInDepthImage

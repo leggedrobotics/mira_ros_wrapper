@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<package format="2">
+
+  <name>mira_ds</name>
+  <version>1.0.0</version>
+  <description>Node to communicate with the device</description>
+
+  <license>Proprietary</license>
+
+  <maintainer email="preisigj@ethz.ch">Jan Preisig</maintainer>
+  <license>BSD</license>
+  <author email="preisigj@ethz.ch">Jan Preisig</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>mira_msgs</depend>
+
+</package>

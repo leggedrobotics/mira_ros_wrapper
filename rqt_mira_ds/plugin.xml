@@ -1,0 +1,16 @@
+<library path="src">
+  <class name="MiraDsPlugin" type="rqt_mira_ds.mira_ds_plugin.MiraDsPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A GUI plugin for interfacing the Mira Ds device
+    </description>
+    <qtgui>
+      <group>
+        <label>Metrohm</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to Metrohm device</statustip>
+      </group>
+      <label>Mira Ds</label>
+      <statustip>Mira Ds interface</statustip>
+    </qtgui>
+  </class>
+</library>
